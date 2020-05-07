@@ -38,6 +38,9 @@ end
 
 def hit?(total)
   # code hit? here
+  prompt_user
+  get_user_input
+  if()
 end
 
 def invalid_command

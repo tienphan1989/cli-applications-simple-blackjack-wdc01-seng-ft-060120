@@ -21,7 +21,7 @@ end
 
 def get_user_input(input)
   # code #get_user_input here
-  gets input
+  gets.chomp
   
 end
 

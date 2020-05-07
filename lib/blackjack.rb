@@ -39,10 +39,10 @@ end
 def hit? (card_total)
    prompt_user
    input = get_user_input #get the value from the user input
-   case action
+   case input
    when "s"
       card_total
-   elsif input == "h"
+   when "h"
       card_total += deal_card
    else
       invalid_command

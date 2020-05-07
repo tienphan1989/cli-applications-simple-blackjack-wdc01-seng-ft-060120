@@ -45,6 +45,7 @@ def hit? (card_total)
       card_total += deal_card
    else
       invalid_command
+      card_total
    end
    card_total #return total number after the user makes a choice
 end
@@ -54,6 +55,7 @@ end
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
+  prompt_user
 end
 
 #####################################################
